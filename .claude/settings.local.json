@@ -6,7 +6,10 @@
       "Bash(gh repo *)",
       "Bash(git push *)",
       "Bash(git add *)",
-      "Bash(git commit -m 'Add deployment configs for Vercel and Railway *)"
+      "Bash(git commit -m 'Add deployment configs for Vercel and Railway *)",
+      "Bash(where vercel *)",
+      "Bash(npm install *)",
+      "Bash(git commit *)"
     ]
   }
 }
