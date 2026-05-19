@@ -1,0 +1,17 @@
+import rateLimit from 'express-rate-limit';
+
+export const rateLimiter = rateLimit({
+  windowMs: parseInt(process.env.RATE_LIMIT_WINDOW_MS || '900000'), // 15 minutes
+  max: parseInt(process.env.RATE_LIMIT_MAX_REQUESTS || '100'),
+  message: 'Слишком много запросов с этого IP, попробуйте позже',
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+
+export const strictRateLimiter = rateLimit({
+  windowMs: 60000, // 1 minute
+  max: 5,
+  message: 'Слишком много попыток, подождите минуту',
+  standardHeaders: true,
+  legacyHeaders: false,
+});
