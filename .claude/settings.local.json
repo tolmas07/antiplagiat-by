@@ -14,7 +14,9 @@
       "Bash(start https://vercel.com/new/clone?repository-url=https://github.com/tolmaswork/antiplagiat-by)",
       "Bash(root-directory=frontend)",
       "PowerShell(Start-Process \"https://vercel.com/new/clone?repository-url=https://github.com/tolmaswork/antiplagiat-by\")",
-      "PowerShell(Start-Process \"https://railway.app/new\")"
+      "PowerShell(Start-Process \"https://railway.app/new\")",
+      "Bash(git remote *)",
+      "PowerShell(Start-Process \"https://vercel.com/new\")"
     ]
   }
 }
